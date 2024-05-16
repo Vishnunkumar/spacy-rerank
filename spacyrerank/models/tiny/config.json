@@ -1,5 +1,5 @@
 {
-  "_name_or_path": "sentence-transformers-testing/stsb-bert-tiny-safetensors",
+  "_name_or_path": "prajjwal1/bert-tiny",
   "architectures": [
     "BertModel"
   ],
