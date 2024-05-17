@@ -6,7 +6,7 @@ from functools import lru_cache
 
 @lru_cache(maxsize=128)
 def load_model():
-    model_path = "models/tinygte/"
+    model_path = "spacyrerank/models/tinygte/"
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModel.from_pretrained(model_path)
     return model, tokenizer
