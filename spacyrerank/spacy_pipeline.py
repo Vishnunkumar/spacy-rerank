@@ -6,7 +6,7 @@ from functools import lru_cache
 
 @lru_cache(maxsize=128)
 def load_model():
-    model_path = "models/tiny/"
+    model_path = "prajjwal1/bert-tiny"
     tokenizer = AutoTokenizer.from_pretrained(model_path)
     model = AutoModel.from_pretrained(model_path)
     return model, tokenizer
