@@ -12,7 +12,7 @@ requirements = [
 
 setuptools.setup(
     name="spacyrerank",
-    version="0.0.2",
+    version="0.0.3",
     author="Vishnu Nandakumar",
     author_email="nkumarvishnu25@gmail.com",
     description="Rank phrases and text based on query by leveraging hugging-face models.",
